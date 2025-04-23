@@ -7,8 +7,11 @@ This script automates copying a URL from Chrome and pasting it into multiple fie
 
 # **Features**:
 One-key operation: Trigger with Ctrl+Shift+P.
+
 Chrome integration: Copies the active tab’s URL.
+
 MTurk compatibility: Pastes the URL into 6 sequential fields.
+
 Error handling: Checks for empty clipboard.
 
 # **Setup**:
@@ -27,7 +30,9 @@ Double-click BDRSDEV_URL_Auto.ahk or compile it to an .exe.
 
 # **Usage**:
 Navigate to the desired URL in Chrome.
+
 Press Ctrl+Shift+P to:
+
 Copy the URL.
 Switch to MTurk.
 Auto-fill 6 fields with the URL.
