@@ -2,10 +2,10 @@
 MTurk URL Auto-Filler
 A Chrome-to-MTurk automation script using AutoHotkey (AHK).
 
-**Overview**
+#**Overview**:
 This script automates copying a URL from Chrome and pasting it into multiple fields on MTurk (Mechanical Turk), saving time for repetitive data-entry tasks.
 
-**Features**
+#**Features**:
 One-key operation: Trigger with Ctrl+Shift+P.
 
 Chrome integration: Copies the active tab’s URL.
@@ -14,13 +14,13 @@ MTurk compatibility: Pastes the URL into 6 sequential fields.
 
 Error handling: Checks for empty clipboard.
 
-**Setup**
+#**Setup**:
 Prerequisites
 AutoHotkey v1.1+ installed.
 
 Chrome and MTurk tabs open.
 
-**Installation**
+#**Installation**:
 Download the script:
 
 bash
@@ -29,7 +29,7 @@ Run the script:
 
 Double-click BDRSDEV_URL_Auto.ahk or compile it to an .exe.
 
-**Usage**
+#**Usage**:
 Navigate to the desired URL in Chrome.
 
 Press Ctrl+Shift+P to:
@@ -40,12 +40,12 @@ Switch to MTurk.
 
 Auto-fill 6 fields with the URL.
 
-**Customization**
+#**Customization**:
 Adjust delays: Modify Sleep, 500 if MTurk loads slowly.
 
 Change hotkey: Replace ^+p:: with another key combo (e.g., ^!u::).
 
-**Code Explanation**
+#**Code Explanation**:
 ahk
 ; Copy URL from Chrome
 Send, ^l  ; Focus address bar
@@ -57,7 +57,7 @@ Loop, 6 {
     Send, {Tab 4}  ; Move to next field
 }
 
-**Limitations**
+#**Limitations**:
 Requires Chrome as the active window before triggering.
 
 MTurk field layout must match the script’s tab sequence.
